@@ -4,8 +4,7 @@
   },
   "componentsPath": "src/components/users/auth/social",
   "installation": {
-    "src/components/users/users.scss": {
-      "imports": ["import GoogleLoginBtn from \"./social/GoogleLoginBtn\";"],
+    "src/components/users/styles/Users.scss": {
       "fileEnd": [
         ".SocialLoginBtn {",
         "\ttext-transform: none;",
