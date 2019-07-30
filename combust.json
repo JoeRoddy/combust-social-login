@@ -2,5 +2,19 @@
   "dependencies": {
     "users": "latest"
   },
-  "componentsPath": "src/components/users/auth/social"
+  "componentsPath": "src/components/users/auth/social",
+  "installation": {
+    "src/components/users/users.scss": {
+      "imports": ["import GoogleLoginBtn from \"./social/GoogleLoginBtn\";"],
+      "fileEnd": [
+        ".SocialLoginBtn {",
+        "\ttext-transform: none;",
+        "\tcolor: white;\n",
+        "\t.Icon {",
+        "\t\tmargin-right: 10px;",
+        "\t}",
+        "}"
+      ]
+    }
+  }
 }
