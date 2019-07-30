@@ -1,0 +1,16 @@
+{
+  "name": "combust-social-login",
+  "version": "1.0.0",
+  "description": "social login for combust",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "combust",
+    "login",
+    "firebase"
+  ],
+  "author": "mrjoeroddy@gmail.com",
+  "license": "ISC"
+}

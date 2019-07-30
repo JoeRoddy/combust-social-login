@@ -1,0 +1,6 @@
+{
+  "dependencies": {
+    "users": "latest"
+  },
+  "componentsPath": "src/components/users/auth/social"
+}
