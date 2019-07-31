@@ -13,7 +13,7 @@ const SocialLoginBtn = ({
 }) => {
   return (
     <button
-      className="SocialLoginBtn uk-button uk-form-width-medium uk-margin-small"
+      className="SocialLoginBtn uk-button uk-button-default uk-form-width-medium uk-margin-small"
       style={{ backgroundColor, color }}
       onClick={() =>
         loginWithThirdParty(type, (err, authInfo) => {

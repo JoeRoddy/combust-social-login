@@ -8,9 +8,12 @@
       "fileEnd": [
         ".SocialLoginBtn {",
         "\ttext-transform: none;",
-        "\tcolor: white;\n",
+        "\tcolor: white;",
         "\t.Icon {",
         "\t\tmargin-right: 10px;",
+        "\t\t&:hover {",
+        "\t\t\tcolor:inherit;",
+        "\t\t}",
         "\t}",
         "}"
       ]
